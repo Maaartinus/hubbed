@@ -1,19 +1,15 @@
 package maaartin.euler.e0.e05;
 
-import static maaartin.euler.e0.e05.E054.Rank.EIGHT;
-import static maaartin.euler.e0.e05.E054.Rank.NINE;
-import static maaartin.euler.e0.e05.E054.Rank.TEN;
-import static maaartin.euler.e0.e05.E054.Suit.CLUBS;
-import static maaartin.euler.e0.e05.E054.Suit.DIAMONDS;
-import static maaartin.euler.e0.e05.E054.Suit.SPADES;
+import static maaartin.euler.e0.e05.Rank.EIGHT;
+import static maaartin.euler.e0.e05.Rank.NINE;
+import static maaartin.euler.e0.e05.Rank.TEN;
+import static maaartin.euler.e0.e05.Suit.CLUBS;
+import static maaartin.euler.e0.e05.Suit.DIAMONDS;
+import static maaartin.euler.e0.e05.Suit.SPADES;
 
 import com.google.common.collect.ImmutableList;
 
 import junit.framework.TestCase;
-import maaartin.euler.e0.e05.E054.Card;
-import maaartin.euler.e0.e05.E054.Hand;
-import maaartin.euler.e0.e05.E054.HandPair;
-import maaartin.euler.e0.e05.E054.HandValue;
 
 public class E054Test extends TestCase {
 	public void testHandForString() {
